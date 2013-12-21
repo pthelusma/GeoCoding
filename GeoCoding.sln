@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding", "GeoCoding\GeoCoding.csproj", "{1D8E48A5-691E-4B8F-8979-3D66269E7B31}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8DA13410-7F60-4B5B-8049-93FDEA7B8FAB} = {8DA13410-7F60-4B5B-8049-93FDEA7B8FAB}
+		{61022A90-2AFA-414A-B679-AEC453C5B405} = {61022A90-2AFA-414A-B679-AEC453C5B405}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{8DA13410-7F60-4B5B-8049-93FDEA7B8FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCodeSvc", "GeoCodeSvc\GeoCodeSvc.csproj", "{61022A90-2AFA-414A-B679-AEC453C5B405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D8E48A5-691E-4B8F-8979-3D66269E7B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8E48A5-691E-4B8F-8979-3D66269E7B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8E48A5-691E-4B8F-8979-3D66269E7B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8E48A5-691E-4B8F-8979-3D66269E7B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA13410-7F60-4B5B-8049-93FDEA7B8FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA13410-7F60-4B5B-8049-93FDEA7B8FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA13410-7F60-4B5B-8049-93FDEA7B8FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA13410-7F60-4B5B-8049-93FDEA7B8FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61022A90-2AFA-414A-B679-AEC453C5B405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61022A90-2AFA-414A-B679-AEC453C5B405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61022A90-2AFA-414A-B679-AEC453C5B405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61022A90-2AFA-414A-B679-AEC453C5B405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

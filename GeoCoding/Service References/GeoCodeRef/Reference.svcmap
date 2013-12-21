@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="77439ff3-d28c-4991-ac5e-7878c54b6be2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:34563/GeoCode.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GeoCode3.xsd" MetadataType="Schema" ID="08a8f140-0072-48c1-8008-08f0dcc040ba" SourceId="1" SourceUrl="http://localhost:34563/GeoCode.svc?xsd=xsd2" />
+    <MetadataFile FileName="GeoCode31.xsd" MetadataType="Schema" ID="8a13201a-f582-429b-8fc8-4dd70ec7cbd1" SourceId="1" SourceUrl="http://localhost:34563/GeoCode.svc?xsd=xsd0" />
+    <MetadataFile FileName="GeoCode32.xsd" MetadataType="Schema" ID="bb934f76-8a0b-42d4-b265-c078991b208b" SourceId="1" SourceUrl="http://localhost:34563/GeoCode.svc?xsd=xsd1" />
+    <MetadataFile FileName="GeoCode1.wsdl" MetadataType="Wsdl" ID="ee0ec59f-a1d1-4394-b5fe-5a2d47f9d51c" SourceId="1" SourceUrl="http://localhost:34563/GeoCode.svc?wsdl" />
+    <MetadataFile FileName="GeoCode1.disco" MetadataType="Disco" ID="3c580d4c-b499-40eb-9cf9-e0ce29c7d97a" SourceId="1" SourceUrl="http://localhost:34563/GeoCode.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
